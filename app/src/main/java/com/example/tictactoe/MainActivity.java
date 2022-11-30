@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                         winner = R.drawable.xwin;
                     }
                     showWinner(winner, winState);
+                    return;
                 }
             }
 
